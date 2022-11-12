@@ -1,0 +1,90 @@
+[
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "description",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "user",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "machine",
+				"type": "uint256"
+			}
+		],
+		"name": "noteCreated",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_coins",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_user",
+				"type": "address"
+			}
+		],
+		"name": "createUser",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_state",
+				"type": "uint256"
+			}
+		],
+		"name": "game",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "random",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "users",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "coins",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
